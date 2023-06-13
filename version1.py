@@ -37,7 +37,7 @@ def read_pdf(file):
     return text
 
 # defining LLM
-llm = ChatOpenAI(model= 'gpt-3.5-turbo', temperature = 0)
+llm = ChatOpenAI(model= 'gpt-4', temperature = 0)
 
 
 # for initial review
@@ -64,7 +64,7 @@ def create_query_prompt(resume, job_description):
 
 
 def main():
-    st.title("Smart Resume Reviewer! 🤖")
+    st.title("AI Resume Reviewer! 🤖")
     st.markdown("📄 Upload your resume and job role to get feedback")
 
     resume_pdf = st.file_uploader("Upload your resume", type = ["pdf"], label_visibility= "collapsed")
