@@ -7,8 +7,7 @@ Job Description: {job_description}
 
 Please provide the feedback in the following format
 
-Strengths:
-<list strengths here>
+
 
 Weaknesses:
 <list weaknesses here>
