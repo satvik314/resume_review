@@ -1,3 +1,5 @@
 PyPDF2
 langchain
 openai
+streamlit
+streamlit-chat
