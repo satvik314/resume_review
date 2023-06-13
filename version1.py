@@ -67,7 +67,7 @@ def main():
     st.title("Smart Resume Reviewer! 🤖")
     st.markdown("📄 Upload your resume and job role to get feedback")
 
-    resume_pdf = st.file_uploader("Upload your resume", type = ["pdf"])
+    resume_pdf = st.file_uploader("Upload your resume", type = ["pdf"], label_visibility= "collapsed")
     job_description = st.text_input("Enter the role for which you are applying")
 
 
